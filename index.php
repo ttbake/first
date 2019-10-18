@@ -1,10 +1,17 @@
-<title>Todd Baker php</title>
-<h1>Todd Baker php</h1>
+<title>Todd Baker PHP</title>
+<h1>Todd Baker PHP</h1>
 <p>
 <?php
-   echo "Hi there.\n";
-   $answer = 6 * 7;
-   echo "The answer is $answer, what was the question again?\n";
+   echo "The SHA256 hash of \"Todd Baker\" is ";
+   print hash('sha256', 'Todd Baker');
 ?>
 </p>
-<p>Yes another paragraph.</p>
+<pre>ASCII ART:
+     ***********
+          *
+          *
+          *
+          *
+          *
+          *
+</pre>
